@@ -5,26 +5,29 @@
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
 // Set your brand colors
-$purple: #a59ad7;
-$pink: #fe76c2;
+$purple: #7A0BC0;
+$pink:#FA58B6;
+$dark-blue: #270082;
 $blue: #37c7f2;
 
 $light-red: #fff3f3;
 
 $light: #fafcff;
-$dark: #3d4a51;
+$dark: #1A1A40;
 
-$green: #0bf387;
+$green: #FA58B6;
 
 
 // Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
+$family-sans-serif: 'Viga', sans-serif; // "Nunito", sans-serif;
 $primary: $purple;
 $link: $blue;
 
 // Update some of Bulma's component variables
-$body-background-color: $light;
+$body-background-color: $dark;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-background-color: #f3f5fa;

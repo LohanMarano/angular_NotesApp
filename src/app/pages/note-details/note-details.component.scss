@@ -1,3 +1,20 @@
+@import '../../../main-styles.scss';
+
+label {
+    color: $light;
+}
+
+.button.is-text {
+    background-color: transparent;
+    border-color: transparent;
+    color: $pink;
+    text-decoration: underline;
+
+    &:hover {
+        background-color: $light;
+    }
+}
+
 .form-container {
     max-width: 500px;
 
