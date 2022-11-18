@@ -2,7 +2,7 @@
 
 <img src="app_cover.png" alt="App cover"/>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9, NodeJs and Bulma. In order to apply CRUD and study Angular routes and other features.
 
 ## Development server
 
