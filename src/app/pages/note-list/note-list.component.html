@@ -13,8 +13,9 @@
 
     <div class="notes-list" [@listAnim]>
         <app-note-card 
-        *ngFor="let note of filteredNotes;"
+        *ngFor="let note of filteredNotes; index as i"
         (link)="generateNoteURL(note)"
+        [routerLink]="[i]"        
         [@itemAnim]
         (delete)="deleteNote($any(note))"
         [title]="note.title" 
